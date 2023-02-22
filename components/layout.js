@@ -5,9 +5,9 @@ import Link from 'next/link';
 
 export const siteTitle = "VulcanWM's Portfolio";
 
-export default function Layout({ children }) {
+export default function Layout({ pageTitle, children }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -22,6 +22,7 @@ export default function Layout({ children }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <title>VulcanWM - {pageTitle}</title>
       </Head>
       <div className={styles.header}>
         <h1>Hi I'm VulcanWM!</h1>

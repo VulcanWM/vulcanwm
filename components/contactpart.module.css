@@ -1,0 +1,39 @@
+.contact {
+  margin: 0.2em;
+  height: 5em;
+  width: 5em;
+  border-radius: 0.5em;
+  border: 2px solid var(--light-background);
+  background-size: 5em 5em;
+}
+
+.contact:hover {
+  transition: 300ms;
+  border: 2px solid var(--dark-accent);
+}
+
+.app .text {
+  margin: 0.2em;
+  font-size: 1em;
+  text-align: center;
+}
+
+.app:hover {
+  cursor: pointer;
+}
+
+#GitHub {
+  background-image: url('https://vulcanwm-nextjs.vulcanwm.repl.co/logos/github.png');
+}
+
+#DEV {
+  background-image: url('https://vulcanwm-nextjs.vulcanwm.repl.co/logos/devto.png');
+}
+
+#Mail {
+  background-image: url('/logos/mail.png');
+}
+
+#Replit {
+  background-image: url('/logos/replit.png');
+}

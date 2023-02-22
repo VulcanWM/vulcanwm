@@ -1,17 +1,8 @@
-import { useState } from 'react';
 import Layout from '../components/layout';
 
 export default function HomePage() {
-  const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
-
-  const [likes, setLikes] = useState(0);
-
-  function handleClick() {
-    setLikes(likes + 1);
-  }
-
   return (
-    <Layout>
+    <Layout pageTitle="Home">
       <div id="about">
         <h2>About me</h2>
         <p>I'm a 13 year old full-stack developer from the UK.</p>

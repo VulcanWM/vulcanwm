@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from './layout.module.css';
 import Link from 'next/link';
+import { NavLink } from 'react-router-dom';
 
 export const siteTitle = "VulcanWM's Portfolio";
 
@@ -28,10 +29,10 @@ export default function Layout({ pageTitle, children }) {
         <h1>Hi I'm VulcanWM!</h1>
       </div>
       <div className={styles.navbar} id="navbar">
-        <a className={[styles.navlink,styles.navlinkltr].join(' ')} href="/">Home</a>
-        <a className={[styles.navlink,styles.navlinkltr].join(' ')} href="/contact">Contact</a>
-        <a className={[styles.navlink,styles.navlinkltr].join(' ')} href="/projects">My Projects</a>
-        <a className={[styles.navlink,styles.navlinkltr].join(' ')} href="/newsletter">Newsletter</a>
+        <Link href="/">Home</Link>
+        <Link href="/contact">Contact</Link>
+        <Link href="/projects">My Projects</Link>
+        <Link href="/newsletter">Newsletter</Link>
       </div>
       <main>{children}</main>
     </div>

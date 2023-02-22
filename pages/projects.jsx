@@ -56,7 +56,7 @@ const projects = {
   "Jasonism": {
     "Link": "https://jasonism.vulcanwm.repl.co",
     "Desc": "make your block of wood mighty",
-     "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "Game"]
+    "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "Game"]
   }, 
   "FRANK": {
     "Link": "https://frank.vulcanwm.repl.co",
@@ -87,6 +87,11 @@ const projects = {
 }
 
 const project_names = Object.keys(projects);
+console.log(project_names)
+{project_names.map((project,index)=>{
+  console.log(project)
+  console.log(projects[project])
+})}
 
 export default function ProjectsPage() {
   return (
@@ -95,21 +100,21 @@ export default function ProjectsPage() {
         {project_names.map((project,index)=>{
           <a href={projects[project]['Link']} class={projects[project]['Status']} target="_blank">
             <div className={styles.project}>
-             <h3>{project}</h3>
-             {projects[project] == "progress" ? (
+              <h3>{project}</h3>
+              {projects[project] == "progress" ? (
                 <>
-                 <p class="red">In progress</p>
-               </>
+                  <p class="red">In progress</p>
+                </>
               ) : (
                 <>
-                 <p>{projects[project]['Desc']}</p>
-               </>
+                  <p>{projects[project]['Desc']}</p>
+                </>
               )}
-            <div className={styles.tags}>
-               {projects[project]['Tags'].map((tag,tag_index)=>{
-                  <p className="tag {tag}">{tag}</p>
-                })}
-             </div>
+              <div className={styles.tags}>
+                 {projects[project]['Tags'].map((tag,tag_index)=>{
+                    <p class="tag {tag}">{tag}</p>
+                  })}
+              </div>
             </div>
           </a>
         })}

@@ -10,7 +10,7 @@
   font-family: 'Cairo', sans-serif;
 }
 
-.navlink {
+.navbar a {
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
@@ -22,11 +22,11 @@
   position: relative;
 }
 
-.navlink:hover {
+.navbar a {
   opacity: 0.8;
 }
 
-.navlink::before {
+.navbar a::before {
   transition: 300ms;
   height: 1.5px;
   content: "";
@@ -34,12 +34,12 @@
   background-color: var(--primary)
 }
 
-.navlinkltr::before {
+.navbar a::before {
   width: 0%;
   bottom: 10px;
 }
 
-.navlinkltr:hover::before {
+.navbar a:hover::before {
   width: 100%;
 }
 

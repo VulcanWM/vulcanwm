@@ -2,11 +2,11 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from './layout.module.css';
 import Link from 'next/link';
-import { NavLink } from 'react-router-dom';
 
 export const siteTitle = "VulcanWM's Portfolio";
 
 export default function Layout({ pageTitle, children }) {
+  const title = `VulcanWM - ${pageTitle}`;
   return (
     <div>
       <Head>
@@ -23,7 +23,7 @@ export default function Layout({ pageTitle, children }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-        <title>VulcanWM - {pageTitle}</title>
+        <title>{title}</title>
       </Head>
       <div className={styles.header}>
         <h1>Hi I'm VulcanWM!</h1>

@@ -1,6 +1,4 @@
-import Layout from '../components/layout';
-import styles from '../styles/projects.module.css';
-import ProjectCard from '../components/projectcard'
+import styles from './projectcard.module.css';
 
 const projects = {
   "Distribute Time": {
@@ -87,23 +85,30 @@ const projects = {
   }
 }
 
-const project_names = Object.keys(projects);
-console.log(project_names)
-{project_names.map((project,index)=>{
-  console.log(project)
-  console.log(projects[project])
-})}
-
-export default function ProjectsPage() {
+export default function ProjectCard({ project, children }) {
   return (
-    <Layout pageTitle="Projects">
-      <div className={styles.projects}>
-        { 
-          Object.keys(projects).map((project, index) => ( 
-            <ProjectCard project={project}></ProjectCard>
-          ))
-        }
-      </div> 
-    </Layout>
+    <div>
+      <a href={projects[project]['Link']} class={styles[projects[project]['Status']]} target="_blank">
+        <div className={styles.project} onclick={"window.location.href='" + projects[project]['Link'] + "'"}>
+          <h3>{project}</h3>
+          {projects[project]['Status'] == "progress" ? (
+            <>
+              <p className={styles.red}>In progress</p>
+            </>
+          ) : (
+            <>
+              <p>{projects[project]['Desc']}</p>
+            </>
+          )}
+          <div className={styles.tags}>
+            {
+              projects[project]['Tags'].map((tag, index) => ( 
+                <p className={styles.tag}>{tag}</p>
+              ))
+            }
+          </div>
+        </div>
+      </a>
+    </div>
   );
 }

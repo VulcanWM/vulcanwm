@@ -10,19 +10,21 @@ export default function Layout({ pageTitle, children }) {
   return (
     <div>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <meta
           name="description"
           content="VulcanWM is a 13 year old full-stack developer from the UK who uses Python, Flask, HTML, CSS, JS, MongoDB and Swift to build fun and useful projects."
         />
         <meta
           property="og:image"
-          content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle,
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+          content="/logo.png"
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:url" content="https://vulcanwm.is-a.dev" />
+        <meta property="og:site_name" content="VulcanWM's Portfolio" />
+        <meta name="robots" content="index, follow"/>
+        <meta property="og:type" content="Portfolio" />
         <title>{title}</title>
       </Head>
       <div className={styles.header}>

@@ -8,42 +8,11 @@ const projects = {
     "Desc": "automatically make your own timetable",
     "Tags": ["Flask", "HTML,CSS,JS", "Tool"]
   }, 
-  "Escape the Punch": {
-    "Link": "https://escape-the-punch.vulcanwm.repl.co",
-    "Desc": "try to escape the ghost's punch",
-    "Tags": ["kaboom.js", 'Game']
-  },
   "What If": {
     "Link": "https://what-if.vulcanwm.repl.co",
     "Desc": "a website where you will face hypothetical scenarios",
     "Tags": ["Flask", "HTML,CSS,JS", "MongoDB", "Forum", "ReplAuth"]
-  }, 
-  "Clicker": {
-    "Link": "https://Clicker.vulcanwm.repl.co",
-    "Desc": "my first Express.JS game: click to get points",
-    "Tags": ["express.js", "HTML,CSS,JS", "ReplitDB", "ReplAuth", "Game"]
   },
-  "wizard vs. snake": {
-    "Link": "https://wizard-vs-snake.vulcanwm.repl.co/",
-    "Desc": "escape the snakes while exploring wizard world",
-    "Tags": ['kaboom.js', 'express.js', 'HTML,CSS,JS', 'ReplitDB', 'ReplAuth']
-  },
-  "Jason Clicker": {
-    "Link": "https://jason-clicker.vulcanwm.repl.co",
-    "Desc": "try to make jason stronger by clicking",
-    "Tags": ["kaboom.js", "Game"]
-  }, 
-  "Colourful Starry Night": {
-    "Link": "https://colourful-starry-night.vulcanwm.repl.co",
-    "Desc": "a colourful starry night generator",
-    "Tags": ["HTML,CSS,JS", "Fun"]
-  }, 
-  "Munity": {
-    "Link": "https://munity.vulcanwm.repl.co",
-    "Desc": "test yourself on song lyrics",
-    "Status": "progress",
-    "Tags": ["Flask", "HTML,CSS,JS", "MongoDB", "Game"]
-  }, 
   "OvalEyes": {
     "Link": "https://ovaleyes.ovaleyes.repl.co",
     "Desc": "a social media website",
@@ -54,17 +23,33 @@ const projects = {
     "Desc": "a greek mythology wikipedia",
     "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "Forum"]
   }, 
+  "Escape the Punch": {
+    "Link": "https://escape-the-punch.vulcanwm.repl.co",
+    "Desc": "try to escape the ghost's punch",
+    "Tags": ["kaboom.js", 'Game']
+  },
+  "wizard vs. snake": {
+    "Link": "https://wizard-vs-snake.vulcanwm.repl.co/",
+    "Desc": "escape the snakes while exploring wizard world",
+    "Tags": ['kaboom.js', 'express.js', 'HTML,CSS,JS', 'ReplitDB', 'ReplAuth']
+  }, 
+  // "Munity": {
+  //   "Link": "https://munity.vulcanwm.repl.co",
+  //   "Desc": "test yourself on song lyrics",
+  //   "Status": "progress",
+  //   "Tags": ["Flask", "HTML,CSS,JS", "MongoDB", "Game"]
+  // }, 
   "Jasonism": {
     "Link": "https://jasonism.vulcanwm.repl.co",
     "Desc": "make your block of wood mighty",
     "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "Game"]
   }, 
-  "FRANK": {
-    "Link": "https://frank.vulcanwm.repl.co",
-    "Desc": "a multi-purpose website",
-    "Status": "progress",
-     "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "Forum"]
-  }, 
+  // "FRANK": {
+  //   "Link": "https://frank.vulcanwm.repl.co",
+  //   "Desc": "a multi-purpose website",
+  //   "Status": "progress",
+  //    "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "Forum"]
+  // }, 
   "Drinks Cabin": {
     "Link": "https://drinks-cabin.vulcanwm.repl.co",
     "Desc": "own your own drinks company",
@@ -74,25 +59,13 @@ const projects = {
     "Link": "https://besucheresort.vulcanwm.repl.co",
     "Desc": "search for money in a resort",
      "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "AFrame", "Game"]
-  }, 
-  "Imposter": {
-    "Link": "https://imposter.vulcanwm.repl.co",
-    "Desc": "guess who is the imposter in your online lesson",
-    "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "Game"]
   },
-  "Boat Shoot": {
-    "Link": "https://boat-shoot.vulcanwm.repl.co/",
-    "Desc": "try to shoot boats and avoid bombs",
-    "Tags": ['kaboom.js', "Game"]
+  "Jason Clicker": {
+    "Link": "https://jason-clicker.vulcanwm.repl.co",
+    "Desc": "try to make jason stronger by clicking",
+    "Tags": ["kaboom.js", "Game"]
   }
 }
-
-const project_names = Object.keys(projects);
-console.log(project_names)
-{project_names.map((project,index)=>{
-  console.log(project)
-  console.log(projects[project])
-})}
 
 export default function ProjectsPage() {
   return (

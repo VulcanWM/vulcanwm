@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from './layout.module.css';
 import Link from 'next/link';
+import { Analytics } from '@vercel/analytics/react';
 
 export const siteTitle = "VulcanWM's Portfolio";
 
@@ -36,6 +37,7 @@ export default function Layout({ pageTitle, children }) {
         <Link href="/projects">My Projects</Link>
       </div>
       <main>{children}</main>
+      <Analytics />
     </div>
   );
 }

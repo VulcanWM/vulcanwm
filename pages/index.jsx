@@ -5,12 +5,9 @@ export default function HomePage() {
     <Layout pageTitle="Home">
       <div id="about">
         <h2>About me</h2>
-        <p>I'm a 13 year old full-stack developer from the UK.</p>
-        <h2>Tech Stack</h2>
-        <p>My main language is <strong>Python</strong> - I really like <strong>Flask</strong> - and I use <strong>HTML, JS and CSS</strong> for frontend for my projects.</p>
-        <p>I like making games with <strong>Kaboom.JS</strong> and I often use <strong>Express.JS</strong> with <strong>ReplitDB</strong> to add other functions to my games.</p>
-        <p>I use databases a lot in my projects, and it's usually <strong>MongoDB</strong>.</p>
-        <p>I also have some knowledge of <strong>Swift</strong>, and can make simple iOS apps.</p>
+        <p>I'm a young full-stack developer from the UK.</p>
+        <p>I like creating <strong>full stack websites</strong> with <strong>MongoDB</strong> in <strong>Flask</strong> or <strong>Next.js</strong>.</p>
+        <p>I also enjoy playing and creating <strong>music</strong>.</p>
       </div>
     </Layout>
   );

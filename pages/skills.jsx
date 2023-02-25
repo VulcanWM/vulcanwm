@@ -4,7 +4,7 @@ import styles from '../styles/skills.module.css';
 
 // add tooling
 // max 8 with this styling
-const skills = {"Languages": ['Python', 'JavaScript', 'JSX', 'Swift'], "Web Frameworks": ['Flask', 'React.js', 'AFrame'], "Full Stack Frameworks": ["Next.js"], "Databases": ["MongoDB", "Key Value Databases"], "Types of APIs": ['REST', "GraphQL"], "APIs": ['Spotify API', 'Gmail API'], "Tooling": ["Git", "GitHub", "pip", "Vercel", "Heroku"], "Data Format": ['Form Data', 'JSON', "XML", "CSV"], "Markup": ["HTML", "Markdown"], "Styling": ['CSS', "Styled-JSX"], "Analytics": ['Google Analytics', "Vercel Audiences"]}
+const skills = {"Languages": ['Python', 'JavaScript', 'JSX', 'Swift'], "Web Frameworks": ['React.js', 'AFrame', 'Kaboom.js', 'Express.js'], "Full Stack Frameworks": ['Flask', "Next.js"], "Databases": ["MongoDB", "Key Value Databases"], "Types of APIs": ['REST', "GraphQL"], "APIs": ['Spotify API', 'Gmail API', 'LyricsGenius'], "Tooling": ["Git", "GitHub", "pip", "Vercel", "Heroku"], "Data Format": ['Form Data', 'JSON', "XML", "CSV"], "Markup": ["HTML", "Markdown"], "Styling": ['CSS', "Styled-JSX"], "Analytics": ['Google Analytics', "Vercel Audiences"]}
 
 export default function SkillsPage() {
   return (

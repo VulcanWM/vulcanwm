@@ -9,22 +9,24 @@
 .list {
   list-style-type: square;
   text-align: left;
-  color: var(--light-font)
+}
+
+.listtext {
+  color: var(--light-font);
 }
 
 .alllist {
   border: 2px solid var(--light-background);
   font-size: 20px;
   width: 400px;
-  height: 320px;
+  height: 240px;
   margin: 10px;
   border-radius: 10px;
-  color: var(--light-font)
 }
 
 @media only screen and (max-width: 600px) {
   .listAll {
     width: 250px;
-    height: 430px;
+    height: 110px;
   }
 }

@@ -21,7 +21,7 @@ export default function SkillsPage() {
                   <ul className={styles.list}>
                     {
                       skills[skill_type].map((skill_name, index) => ( 
-                        <li>{skill_name}</li>
+                        <li className={styles.listtext}>{skill_name}</li>
                       ))
                     } 
                   </ul>

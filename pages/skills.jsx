@@ -12,19 +12,17 @@ export default function SkillsPage() {
       <div id="skills_content">
         <h2>Skills</h2>
         <p>This is a list of what tools I have used while I have been programming.</p>
-        <div id="skills">
+        <div className={styles.lists}>
           { 
             Object.keys(skills).map((skill_type, index) => (
-              <div id={skill_type} className={styles.lists}>
-                <div className={styles.alllist}>
-                <h3>{skill_type}</h3>
-                  <ul className={styles.list}>
-                    {
-                      skills[skill_type].map((skill_name, index) => ( 
-                        <li className={styles.listtext}>{skill_name}</li>
-                      ))
-                    } 
-                  </ul>
+              <div className={styles.skillinfo}>
+              <h3>{skill_type}</h3>
+                <div className={styles.skills}>
+                  {
+                    skills[skill_type].map((skill_name, index) => ( 
+                      <p className={styles.skill}>{skill_name}</p>
+                    ))
+                  } 
                 </div>
               </div>
             ))

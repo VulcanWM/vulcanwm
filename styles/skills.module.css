@@ -6,27 +6,29 @@
   justify-content: center;
 }
 
-.list {
-  list-style-type: square;
-  text-align: left;
-}
-
-.listtext {
-  color: var(--light-font);
-}
-
-.alllist {
+.skillinfo {
   border: 2px solid var(--light-background);
   font-size: 20px;
-  width: 400px;
+  width: 250px;
   height: 240px;
   margin: 10px;
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 600px) {
-  .listAll {
-    width: 250px;
-    height: 110px;
-  }
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill {
+  font-weight: bold;
+  font-size: 15px;
+  color: var(--light-font);
+  border: 2px solid var(--light-background);
+  border-radius: 15px;
+  width: 100px;
+  margin: 5px;
 }

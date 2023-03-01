@@ -10,7 +10,7 @@ export default function SkillsPage() {
   return (
     <Layout pageTitle="Skills">
       <div id="skills_content">
-        <h2>Skills</h2>
+        <h2>My Skills</h2>
         <p>This is a list of what tools I have used while I have been programming.</p>
         <div className={styles.lists}>
           { 

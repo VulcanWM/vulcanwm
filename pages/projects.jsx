@@ -6,7 +6,7 @@ import {projects} from '../lists/projects'
 export default function ProjectsPage() {
   return (
     <Layout pageTitle="Projects">
-      <h2>My Skills</h2>
+      <h2>My Projects</h2>
       <div className={styles.projects}>
         { 
           Object.keys(projects).map((project, index) => ( 

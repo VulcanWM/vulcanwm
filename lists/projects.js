@@ -20,7 +20,7 @@ export const projects = {
     "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "Forum"]
   }, 
   "Escape the Punch": {
-    "Link": "https://escape-the-punch.vulcanwm.repl.co",
+    "Link": "https://escape-the-punch.netlify.app/",
     "Desc": "try to escape the ghost's punch",
     "Tags": ["kaboom.js", 'Game']
   },

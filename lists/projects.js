@@ -1,6 +1,6 @@
 export const projects = {
   "Distribute Time": {
-    "Link": "https://distribute-time.vulcanwm.repl.co",
+    "Link": "https://distribute-time.onrender.com/",
     "Desc": "automatically make your own timetable",
     "Tags": ["Flask", "HTML,CSS,JS", "Tool"]
   }, 

@@ -36,8 +36,8 @@ export default function Layout({ pageTitle, children }) {
         <Link href="/contact">Contact</Link>
         <Link href="/projects">My Projects</Link>
         <Link href="/skills">My Skills</Link>
-        <a href="https://vulcanwm.hashnode.dev/">Blog</a>
-        <a href="https://vulcanwm.hashnode.dev/newsletter">Newsletter</a>
+//         <a href="https://vulcanwm.hashnode.dev/">Blog</a>
+//         <a href="https://vulcanwm.hashnode.dev/newsletter">Newsletter</a>
       </div>
       <main>{children}</main>
       <Analytics />

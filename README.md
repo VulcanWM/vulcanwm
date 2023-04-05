@@ -2,7 +2,9 @@
 <h1 align="center">Hey 🙏, I'm VulcanWM</h1>
 <h3 align="center">A young Full Stack Developer from the UK</h3>
 
-- 🔭 I’m currently working on learning Next.js/React
+- 🎯 I’m currently working on [Discipulis](https://github.com/VulcanWM/discipulis)
+
+- 🔭 I'm learning React Native
 
 - 👨‍💻 All of my projects are available at [https://vulcanwm.is-a.dev](https://vulcanwm.is-a.dev)
 

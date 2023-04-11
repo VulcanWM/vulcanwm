@@ -7,6 +7,7 @@ import styles from '../styles/skills.module.css';
 const skills = {
   "Languages": ['Python', 'JavaScript', 'JSX', 'TypeScript', 'Swift'], 
   "Web Frameworks": ['React.js', 'AFrame', 'Kaboom.js', 'Express.js'], 
+  "Mobile Frameworks": ["React Native", "Expo"],
   "Full Stack Frameworks": ['Flask', "Next.js"],
   "Databases": ["MongoDB", "Key Value Databases"],
   "Types of APIs": ['REST', "GraphQL"], 

@@ -4,8 +4,8 @@ import {projects} from '../lists/projects'
 export default function ProjectCard({ project, children }) {
   return (
     <div>
-      <a href={projects[project]['Link']} class={styles[projects[project]['Status']]} target="_blank">
-        <div className={styles.project} onclick={"window.location.href='" + projects[project]['Link'] + "'"}>
+      <a href={projects[project]['Link']} className={styles[projects[project]['Status']]} target="_blank">
+        <div className={styles.project} onClick={"window.location.href='" + projects[project]['Link'] + "'"}>
           <h3>{project}</h3>
           {projects[project]['Status'] == "progress" ? (
             <>

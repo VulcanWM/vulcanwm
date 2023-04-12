@@ -5,7 +5,7 @@ export default function ContactPart({ contactName, contactUrl, contactFile, chil
   return (
     <div>
       <a href={contactUrl} target="_blank">
-        <div class={styles.app}>
+        <div className={styles.app}>
           <div className={styles.contact} style={{ 
       backgroundImage: "url(" + contactFile + ")" 
     }}>

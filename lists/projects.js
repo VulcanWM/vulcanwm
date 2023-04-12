@@ -1,4 +1,9 @@
 export const projects = {
+  "Discipulis": {
+    "Link": "https://discipulis.vercel.app/",
+    "Desc": "a websited aimed to help people learn Latin in a fun way",
+    "Tags": ["Next.js", "React.js", "MongoDB", "Education"]
+  },
   "Distribute Time": {
     "Link": "https://distribute-time.onrender.com/",
     "Desc": "automatically make your own timetable",

@@ -23,12 +23,7 @@ export const projects = {
     "Link": "https://ovaleyes.ovaleyes.repl.co",
     "Desc": "a social media website",
     "Tags": ["Flask", "HTML,CSS,JS", "MongoDB", "Forum"]
-  }, 
-  "We Greek": {
-    "Link": "https://wegreek.vulcanwm.repl.co",
-    "Desc": "a greek mythology wikipedia",
-    "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "Forum"]
-  }, 
+  },
   "Escape the Punch": {
     "Link": "https://escape-the-punch.netlify.app/",
     "Desc": "try to escape the ghost's punch",
@@ -49,15 +44,5 @@ export const projects = {
     "Link": "https://jasonism.vulcanwm.repl.co",
     "Desc": "make your block of wood mighty",
     "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "Game"]
-  },
-  "Drinks Cabin": {
-    "Link": "https://drinks-cabin.vulcanwm.repl.co",
-    "Desc": "own your own drinks company",
-     "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "Game"]
-  }, 
-  "BesucheResort": {
-    "Link": "https://besucheresort.vulcanwm.repl.co",
-    "Desc": "search for money in a resort",
-     "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "AFrame", "Game"]
   }
 }

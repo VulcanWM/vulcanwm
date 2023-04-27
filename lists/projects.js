@@ -4,16 +4,21 @@ export const projects = {
     "Desc": "a websited aimed to help people learn Latin in a fun way",
     "Tags": ["Next.js", "React.js", "MongoDB", "Education"]
   },
-  "Distribute Time": {
-    "Link": "https://distribute-time.onrender.com/",
-    "Desc": "automatically make your own timetable",
-    "Tags": ["Flask", "HTML,CSS,JS", "Tool"]
-  }, 
   "What If": {
     "Link": "https://what-if.vulcanwm.repl.co",
     "Desc": "a website where you will face hypothetical scenarios",
     "Tags": ["Flask", "HTML,CSS,JS", "MongoDB", "Forum", "ReplAuth"]
   },
+  "Global CSS Art": {
+    "Link": "https://global-css-art.vercel.app/",
+    "Desc": "a community dedicated to bringing together CSS artists",
+    "Tags": ['Next.js', 'CSS', 'GitHub', 'Open-Source']
+  },
+  "Distribute Time": {
+    "Link": "https://distribute-time.onrender.com/",
+    "Desc": "automatically make your own timetable",
+    "Tags": ["Flask", "HTML,CSS,JS", "Tool"]
+  }, 
   "OvalEyes": {
     "Link": "https://ovaleyes.ovaleyes.repl.co",
     "Desc": "a social media website",

@@ -49,13 +49,7 @@ export const projects = {
     "Link": "https://jasonism.vulcanwm.repl.co",
     "Desc": "make your block of wood mighty",
     "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "Game"]
-  }, 
-  // "FRANK": {
-  //   "Link": "https://frank.vulcanwm.repl.co",
-  //   "Desc": "a multi-purpose website",
-  //   "Status": "progress",
-  //    "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "Forum"]
-  // }, 
+  },
   "Drinks Cabin": {
     "Link": "https://drinks-cabin.vulcanwm.repl.co",
     "Desc": "own your own drinks company",
@@ -65,10 +59,5 @@ export const projects = {
     "Link": "https://besucheresort.vulcanwm.repl.co",
     "Desc": "search for money in a resort",
      "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "AFrame", "Game"]
-  },
-  "Jason Clicker": {
-    "Link": "https://jason-clicker.vulcanwm.repl.co",
-    "Desc": "try to make jason stronger by clicking",
-    "Tags": ["kaboom.js", "Game"]
   }
 }

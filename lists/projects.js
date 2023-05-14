@@ -9,6 +9,11 @@ export const projects = {
     "Desc": "a website where you will face hypothetical scenarios",
     "Tags": ["Flask", "HTML,CSS,JS", "MongoDB", "Forum", "ReplAuth"]
   },
+  "VulcanWM's GuestBook": {
+    "Link": "https://vulcanwm-guestbook.vercel.app/",
+    "Desc": "view and sign my guestbook",
+    "Tags": ['Next.js', 'React.js', 'MongoDB']
+  },
   "Global CSS Art": {
     "Link": "https://global-css-art.vercel.app/",
     "Desc": "a community dedicated to bringing together CSS artists",

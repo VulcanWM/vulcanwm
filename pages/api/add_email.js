@@ -30,7 +30,7 @@ export default async function handler(req, res) {
     const html = `
     <h1>VulcanWM's Newsletter</h1>
     <p>Hello ${name}, you have signed up for VulcanWM's Newsletter!</p>
-    <p>Click <a href='https://vulcanwm.is-a.dev/verify/${verification_id}'>here</a> to verify and be able to recieve VulcanWM's Newsletters!</p>
+    <p>Click <a href='https://vulcanwm.is-a.dev/api/verify?id=${verification_id}'>here</a> to verify and be able to recieve VulcanWM's Newsletters!</p>
     `
     var mailOptions = {
       from: MY_EMAIL,

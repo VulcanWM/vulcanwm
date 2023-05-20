@@ -23,11 +23,11 @@ export default async function handler(req, res) {
     try {
         veri_documents = await verification_col.find({"_id": new ObjectId(verification_id)}).toArray()
     } catch {
-        res.redirect("/newsletter?msg=This is not a valid url!")
+        res.redirect(302, "/newsletter?msg=This is not a valid url!")
         return;
     }
     if (veri_documents.length == 0){
-        res.redirect("/newsletter?msg=This is not a valid url!")
+        res.redirect(302, "/newsletter?msg=This is not a valid url!")
         return;
     }
     const veri_document = veri_documents[0]
@@ -53,8 +53,8 @@ export default async function handler(req, res) {
       //   console.log('Email sent: ' + info.response);
       // }
     });
-    res.redirect("/newsletter?msg=Email verified! You will start receiving VulcanWM's Newsletters!")
+    res.redirect(302, "/newsletter?msg=Email verified! You will start receiving VulcanWM's Newsletters!")
   } else {
-    res.redirect("/")
+    res.redirect(302, "/")
   }
 }

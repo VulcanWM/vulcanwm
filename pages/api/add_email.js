@@ -22,7 +22,7 @@ export default async function handler(req, res) {
     await verification_col.deleteMany({"Email": email})
     const verified_documents = await emaillist_col.find({"Email": email}).toArray();
     if (verified_documents.length > 0){
-      res.redirect("/newsletter?msg=You have already subscribed to VulcanWM's Newsletter!")
+      res.redirect(302, "/newsletter?msg=You have already subscribed to VulcanWM's Newsletter!")
       return;
     }
     const result = await verification_col.insertOne({"Email": email})
@@ -46,8 +46,8 @@ export default async function handler(req, res) {
       //   console.log('Email sent: ' + info.response);
       // }
     });
-    res.redirect("/newsletter?msg=Check your emails and verify your email to start receiving VulcanWM's Newsletters!")
+    res.redirect(302, "/newsletter?msg=Check your emails and verify your email to start receiving VulcanWM's Newsletters!")
   } else {
-    res.redirect("/")
+    res.redirect(302, "/")
   }
 }

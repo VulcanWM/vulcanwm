@@ -22,11 +22,11 @@ export default async function handler(req, res) {
     try {
         email_documents = await emaillist_col.find({"_id": new ObjectId(verification_id)}).toArray()
     } catch {
-        res.redirect("/newsletter?msg=This is not a valid url!")
+        res.redirect(302, "/newsletter?msg=This is not a valid url!")
         return;
     }
     if (emaillist_col.length == 0){
-        res.redirect("/newsletter?msg=This is not a valid url!")
+        res.redirect(302, "/newsletter?msg=This is not a valid url!")
         return;
     }
     const email_document = email_documents[0]
@@ -52,8 +52,8 @@ export default async function handler(req, res) {
       //   console.log('Email sent: ' + info.response);
       // }
     });
-    res.redirect("/newsletter?msg=You have unsubscribed to VulcanWM's Newsletters!")
+    res.redirect(302, "/newsletter?msg=You have unsubscribed to VulcanWM's Newsletters!")
   } else {
-    res.redirect("/")
+    res.redirect(302, "/")
   }
 }

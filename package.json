@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@vercel/analytics": "^0.1.10",
+    "mongodb": "^5.5.0",
     "next": "^12.2.0",
+    "nodemailer": "^6.9.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "^6.8.1"

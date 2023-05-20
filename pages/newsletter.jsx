@@ -13,7 +13,7 @@ export default function NewsletterPage() {
         :
             <>
                 <p>Want to subscribe to VulcanWM's Newsletters? Fill in the form below:</p>
-                <form method="POST" action="/newsletter">
+                <form method="POST" action="/api/add_email">
                     <input className={styles.input} placeholder="email" type="email" name="email" required/>
                     <br/>
                     <button className={styles.subscribe}>subscribe</button>

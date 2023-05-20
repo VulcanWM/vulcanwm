@@ -46,11 +46,11 @@ export default async function handler(req, res) {
     };
     
     transporter.sendMail(mailOptions, function(error, info){
-      // if (error) {
-      //   console.log(error);
-      // } else {
-      //   console.log('Email sent: ' + info.response);
-      // }
+      if (error) {
+        console.log(error);
+      } else {
+        console.log('Email sent: ' + info.response);
+      }
     });
     res.redirect(302, "/newsletter?msg=You have unsubscribed to VulcanWM's Newsletters!")
   } else {

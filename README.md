@@ -1,8 +1,8 @@
 # 💫About Me :
 <h1 align="center">Hey 🙏, I'm VulcanWM</h1>
-<h3 align="center">A young Full Stack Developer from the UK</h3>
+<h3 align="center">A 14 year old Full Stack Developer from the UK</h3>
 
-- 🎯 I’m currently working on [Discipulis](https://github.com/VulcanWM/discipulis)
+- 🎯 I’m currently working on [GitHub Readme TodoList](https://github.com/VulcanWM/github-readme-todolist)
 
 - 🔭 I'm learning React Native
 

@@ -2,7 +2,7 @@
 <h1 align="center">Hey 🙏, I'm VulcanWM</h1>
 <h3 align="center">A 14 year old Full Stack Developer from the UK</h3>
 
-- 🎯 I’m currently working on [GitHub Readme TodoList](https://github.com/VulcanWM/github-readme-todolist)
+- 🎯 I’m currently working on [TodoList Next.js](https://github.com/VulcanWM/todolist-nextjs)
 
 - 🔭 I'm learning React Native
 

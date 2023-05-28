@@ -4,7 +4,7 @@
 
 - 🎯 I’m currently working on [TodoList Next.js](https://github.com/VulcanWM/todolist-nextjs)
 
-- 🔭 I'm learning React Native
+- 🔭 I'm learning Svelte and SvelteKit
 
 - 👨‍💻 All of my projects are available at [https://vulcanwm.is-a.dev](https://vulcanwm.is-a.dev)
 

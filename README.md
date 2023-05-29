@@ -2,7 +2,7 @@
 <h1 align="center">Hey 🙏, I'm VulcanWM</h1>
 <h3 align="center">A 14 year old Full Stack Developer from the UK</h3>
 
-- 🎯 I’m currently working on [TodoList Next.js](https://github.com/VulcanWM/todolist-nextjs)
+- 🎯 I’m currently working on [Timetable game](https://github.com/VulcanWM/timetable-game)
 
 - 🔭 I'm learning Svelte and SvelteKit
 

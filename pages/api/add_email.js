@@ -1,4 +1,5 @@
 import clientPromise from "../../lib/mongodb";
+import rateLimit from "../../lib/rate-limit";
 const MAIL_PASS=process.env.MAIL_PASS
 const MY_EMAIL = "vulcanwmemail@gmail.com"
 var nodemailer = require('nodemailer');
@@ -11,7 +12,18 @@ var transporter = nodemailer.createTransport({
   }
 });
 
+const limiter = rateLimit({
+  interval: 60 * 1000, // 60 seconds
+  uniqueTokenPerInterval: 500, // Max 500 users per second
+})
+
 export default async function handler(req, res) {
+  try {
+    await limiter.check(res, 3, 'CACHE_TOKEN')
+  } catch {
+    res.redirect(302, "/newsletter?msg=You have been ratelimited! Try again in a minute!")
+    return;
+  }
   const client = await clientPromise;
   const db = client.db("Newsletters");
   const verification_col = db.collection("Verification")

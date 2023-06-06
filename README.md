@@ -2,9 +2,9 @@
 <h1 align="center">Hey 🙏, I'm VulcanWM</h1>
 <h3 align="center">A 14 year old Full Stack Developer from the UK</h3>
 
-- 🎯 I’m currently working on [Timetable game](https://github.com/VulcanWM/timetable-game)
+- 🎯 I’m currently working on [MIDI Writer](https://github.com/VulcanWM/midi-writer)
 
-- 🔭 I'm learning Svelte and SvelteKit
+- 🔭 I'm learning how to integrate Music with Next.js
 
 - 👨‍💻 All of my projects are available at [https://vulcanwm.is-a.dev](https://vulcanwm.is-a.dev)
 

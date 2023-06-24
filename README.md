@@ -4,7 +4,7 @@
 
 - 🎯 I’m currently working on [MIDI Writer](https://github.com/VulcanWM/midi-writer)
 
-- 🔭 I'm learning how to integrate Music with Next.js
+- 🔭 I'm learning Socket.io with Next.js
 
 - 👨‍💻 All of my projects are available at [https://vulcanwm.is-a.dev](https://vulcanwm.is-a.dev)
 

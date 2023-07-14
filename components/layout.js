@@ -27,6 +27,7 @@ export default function Layout({ pageTitle, children }) {
         <meta name="robots" content="index, follow"/>
         <meta property="og:type" content="Portfolio" />
         <meta name="google-site-verification" content="sHMC0fTdYND3r1nBJCPQp869TDwrMNjo7IhpsbMcnl0" />
+        <meta name="google-site-verification" content="d3cd3FIDhsMDI3e_zwDnkg4GLGdu-cJu23VVpa-eC6o" />
         <title>{title}</title>
       </Head>
       <div className={styles.header}>

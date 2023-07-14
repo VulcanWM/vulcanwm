@@ -26,6 +26,7 @@ export default function Layout({ pageTitle, children }) {
         <meta property="og:site_name" content="VulcanWM's Portfolio" />
         <meta name="robots" content="index, follow"/>
         <meta property="og:type" content="Portfolio" />
+        <meta name="google-site-verification" content="sHMC0fTdYND3r1nBJCPQp869TDwrMNjo7IhpsbMcnl0" />
         <title>{title}</title>
       </Head>
       <div className={styles.header}>

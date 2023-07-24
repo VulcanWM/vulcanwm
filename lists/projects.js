@@ -9,6 +9,11 @@ export const projects = {
     "Desc": "a website where you will face hypothetical scenarios",
     "Tags": ["Flask", "HTML,CSS,JS", "MongoDB", "Forum", "ReplAuth"]
   },
+  "Melody Maker": {
+    "Link": "https://melody-maker-theta.vercel.app/",
+    "Desc": "instantly generates sheet music and audio for simple melodies in any key",
+    "Tags": ["Next.js", "React.js", "VexFlow", "Tone.js"]
+  },
   "VulcanWM's GuestBook": {
     "Link": "https://vulcanwm-guestbook.vercel.app/",
     "Desc": "view and sign my guestbook",

@@ -38,7 +38,6 @@ export default function Layout({ pageTitle, children }) {
         <Link href="/contact">Contact</Link>
         <Link href="/projects">My Projects</Link>
         <Link href="/skills">My Skills</Link>
-        <Link href="/newsletter">Newsletter</Link>
       </div>
       <main>{children}</main>
       <Analytics />

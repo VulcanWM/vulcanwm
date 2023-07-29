@@ -7,7 +7,7 @@ export const projects = {
   "What If": {
     "Link": "https://what-if-scenarios.vercel.app",
     "Desc": "a website where you will face hypothetical scenarios",
-    "Tags": ["Next.js", "React", "MongoDB", "Forum", "NextAuth"]
+    "Tags": ["Next.js", "React.js", "MongoDB", "Forum", "NextAuth"]
   },
   "Melody Maker": {
     "Link": "https://melody-maker-theta.vercel.app/",

@@ -5,9 +5,9 @@ export const projects = {
     "Tags": ["Next.js", "React.js", "MongoDB", "Education"]
   },
   "What If": {
-    "Link": "https://what-if.vulcanwm.repl.co",
+    "Link": "https://what-if-scenarios.vercel.app",
     "Desc": "a website where you will face hypothetical scenarios",
-    "Tags": ["Flask", "HTML,CSS,JS", "MongoDB", "Forum", "ReplAuth"]
+    "Tags": ["Next.js", "React", "MongoDB", "Forum", "NextAuth"]
   },
   "Melody Maker": {
     "Link": "https://melody-maker-theta.vercel.app/",
@@ -17,7 +17,7 @@ export const projects = {
   "VulcanWM's GuestBook": {
     "Link": "https://vulcanwm-guestbook.vercel.app/",
     "Desc": "view and sign my guestbook",
-    "Tags": ['Next.js', 'React.js', 'MongoDB']
+    "Tags": ['Next.js', 'React.js', 'MongoDB', "NextAuth"]
   },
   "Global CSS Art": {
     "Link": "https://global-css-art.vercel.app/",

@@ -4,7 +4,7 @@ export const skills = {
     "Web Frameworks": ["Flask", 'React.js', 'AFrame', 'Kaboom.js', 'Express.js', "Svelte"], 
     "Mobile Frameworks": ["React Native", "Expo"],
     "Full Stack Frameworks": ["Next.js", "SvelteKit"],
-    "Databases": ["MongoDB", "Key Value Databases"],
+    "Databases": ["MongoDB", "CosmosDB", "Key Value Databases"],
     "Types of APIs": ['REST', "GraphQL"], 
     "APIs": ['Spotify API', 'Gmail API', 'LyricsGenius'], 
     "Tooling": ["Git", "GitHub", "pip", "Vercel", "Heroku", "npm"], 

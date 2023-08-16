@@ -2,7 +2,7 @@
 <h1 align="center">Hey 🙏, I'm VulcanWM</h1>
 <h3 align="center">A 14 year old Full Stack Developer from the UK</h3>
 
-- 🎯 I’m currently working on [Balance Scale](https://github.com/VulcanWM/balance-scale)
+- 🎯 I’m currently working on [Escape Breakout](https://github.com/VulcanWM/escape-breakout)
 
 - 🔭 I'm learning Socket.io with Express.js
 

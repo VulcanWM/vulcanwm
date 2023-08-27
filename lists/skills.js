@@ -1,7 +1,7 @@
 // max 8 with this styling
 export const skills = {
     "Languages": ['Python', 'JavaScript', 'JSX', 'TypeScript', 'Swift'], 
-    "Web Frameworks": ["Flask", 'React.js', 'AFrame', 'Kaboom.js', 'Express.js', "Svelte"], 
+    "Web Frameworks": ["Flask", 'React.js', 'Three.js', 'AFrame', 'Kaboom.js', 'Express.js', "Svelte"], 
     "Mobile Frameworks": ["React Native", "Expo"],
     "Full Stack Frameworks": ["Next.js", "SvelteKit"],
     "Databases": ["MongoDB", "CosmosDB", "Key Value Databases"],

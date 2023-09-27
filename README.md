@@ -2,9 +2,9 @@
 <h1 align="center">Hey 🙏, I'm VulcanWM</h1>
 <h3 align="center">A 14 year old Full Stack Developer from the UK</h3>
 
-- 🎯 I’m currently working on [Escape Breakout](https://github.com/VulcanWM/escape-breakout)
+- 🎯 I’m currently working on FocusSync
 
-- 🔭 I'm learning Socket.io with Express.js
+- 🔭 I'm learning how to use Ably
 
 - 👨‍💻 All of my projects are available at [https://vulcanwm.is-a.dev](https://vulcanwm.is-a.dev)
 

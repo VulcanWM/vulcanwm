@@ -1,4 +1,14 @@
 export const projects = {
+  "FocusSync": {
+    "Link": "https://focus-sync.vercel.app",
+    "Desc": "goal-driven productivity platform",
+    "Tags": ["Next.js", "React.js", "MongoDB", "Tool"]
+  },
+  "Escape Breakout": {
+    "Link": "https://escape-breakout.netlify.app",
+    "Desc": "an interactive virtual escape room",
+    "Tags": ["Three.js", "Next.js", "React.js", "Game"]
+  },
   "Discipulis": {
     "Link": "https://discipulis.vercel.app/",
     "Desc": "a websited aimed to help people learn Latin in a fun way",

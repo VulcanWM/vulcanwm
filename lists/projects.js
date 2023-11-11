@@ -28,31 +28,10 @@ export const projects = {
     "Link": "https://distribute-time.onrender.com/",
     "Desc": "automatically make your own timetable",
     "Tags": ["Flask", "HTML,CSS,JS", "Tool"]
-  }, 
-  "OvalEyes": {
-    "Link": "https://ovaleyes.ovaleyes.repl.co",
-    "Desc": "a social media website",
-    "Tags": ["Flask", "HTML,CSS,JS", "MongoDB", "Forum"]
   },
   "Escape the Punch": {
     "Link": "https://escape-the-punch.netlify.app/",
     "Desc": "try to escape the ghost's punch",
     "Tags": ["kaboom.js", 'Game']
-  },
-  "wizard vs. snake": {
-    "Link": "https://wizard-vs-snake.vulcanwm.repl.co/",
-    "Desc": "escape the snakes while exploring wizard world",
-    "Tags": ['kaboom.js', 'express.js', 'HTML,CSS,JS', 'ReplitDB', 'ReplAuth']
-  }, 
-  // "Munity": {
-  //   "Link": "https://munity.vulcanwm.repl.co",
-  //   "Desc": "test yourself on song lyrics",
-  //   "Status": "progress",
-  //   "Tags": ["Flask", "HTML,CSS,JS", "MongoDB", "Game"]
-  // }, 
-  "Jasonism": {
-    "Link": "https://jasonism.vulcanwm.repl.co",
-    "Desc": "make your block of wood mighty",
-    "Tags": ['Flask', 'HTML,CSS,JS', 'MongoDB', "Game"]
   }
 }

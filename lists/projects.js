@@ -1,4 +1,9 @@
 export const projects = {
+  "ToneTrail": {
+    "Link": "https://tonetrail.vercel.app",
+    "Desc": "learn music theory from scratch",
+    "Tags": ["Next.js", "React.js", "VexFlow", "MongoDB", "Education"]
+  },
   "FocusSync": {
     "Link": "https://focus-sync.vercel.app",
     "Desc": "goal-driven productivity platform",

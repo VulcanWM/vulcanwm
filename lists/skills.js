@@ -10,6 +10,6 @@ export const skills = {
     "Tooling": ["Git", "GitHub", "pip", "Vercel", "Heroku", "npm"], 
     "Data Format": ['Form Data', 'JSON', "XML", "CSV"], 
     "Markup": ["HTML", "Markdown"], 
-    "Styling": ['CSS', "Styled-JSX"], 
+    "Styling": ['CSS', "Styled-JSX", "Tailwind"], 
     "Analytics": ['Google Analytics', "Vercel Audiences"]
   }

@@ -14,7 +14,7 @@ export default function Layout({ pageTitle, children }) {
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="VulcanWM is a 13 year old full-stack developer from the UK who uses Python, Flask, HTML, CSS, JS, MongoDB and Swift to build fun and useful projects."
+          content="VulcanWM is a 14 year old full-stack developer from the UK who uses Next.js, React.js, MongoDB and Tailwind to build fun and useful projects."
         />
         <meta
           property="og:image"

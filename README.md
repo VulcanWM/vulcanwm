@@ -8,7 +8,7 @@
 
 - 👨‍💻 All of my projects are available at [https://vulcanwm.is-a.dev](https://vulcanwm.is-a.dev)
 
-- 💬 Ask me about **flask, pymongo**
+- 💬 Ask me about **nextjs, mongodb, flask**
 
 - 📫 How to reach me **vulcanwmemail@gmail.com**
 

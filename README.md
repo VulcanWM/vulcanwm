@@ -2,9 +2,9 @@
 <h1 align="center">Hey 🙏, I'm VulcanWM</h1>
 <h3 align="center">A 15 year old Full Stack Developer from the UK</h3>
 
-- 🎯 I’m currently working on CrowdConquer
+- 🎯 I’m currently working on my portfolio
 
-- 🔭 I'm learning Swift
+- 🔭 I'm learning Framer Motion
 
 - 👨‍💻 All of my projects are available at [https://vulcanwm.is-a.dev](https://vulcanwm.is-a.dev)
 

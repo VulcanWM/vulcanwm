@@ -14,7 +14,7 @@ export default function Layout({ pageTitle, children }) {
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="VulcanWM is a 14 year old full-stack developer from the UK who uses Next.js, React.js, MongoDB and Tailwind to build fun and useful projects."
+          content="VulcanWM is a 15 year old full-stack developer from the UK who uses Next.js, React.js, MongoDB and Tailwind to build fun and useful projects."
         />
         <meta
           property="og:image"
@@ -35,11 +35,24 @@ export default function Layout({ pageTitle, children }) {
       </div>
       <div className={styles.navbar} id="navbar">
         <Link href="/">Home</Link>
-        <Link href="/contact">Contact</Link>
         <Link href="/projects">My Projects</Link>
         <Link href="/skills">My Skills</Link>
       </div>
       <main>{children}</main>
+      <div className={`${styles.footer} ${styles.sticky_footer}`}>
+        <a href="https://github.com/VulcanWM" target="_blank">
+          <img className={styles.footerIcon} src="/logos/github.png" alt="GitHub" />
+        </a>
+        <a href="https://dev.to/vulcanwm" target="_blank">
+          <img className={styles.footerIcon} src="/logos/devto.png" alt="DEV" />
+        </a>
+        <a href="mailto:your.email@example.com">
+          <img className={styles.footerIcon} src="/logos/mail.png" alt="Mail" />
+        </a>
+        <a href="https://replit.com/@VulcanWM" target="_blank">
+          <img className={styles.footerIcon} src="/logos/replit.png" alt="Replit" />
+        </a>
+      </div>
       <Analytics />
     </div>
   );

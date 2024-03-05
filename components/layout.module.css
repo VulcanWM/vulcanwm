@@ -61,3 +61,37 @@
   text-align: center;
   font-family: 'Cairo', sans-serif;
 }
+
+.footer {
+  text-align: center;
+  overflow: hidden;
+  border-top: 1px solid var(--light-background);
+  background-color: var(--background);
+  position: sticky;
+  bottom: 0;
+  font-family: 'Cairo', sans-serif;
+}
+
+.sticky_footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.sticky_footer + .content {
+  padding-bottom: 60px;
+}
+
+.footerIcon {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid var(--light-background);
+}
+
+.footerIcon:hover {
+  transition: 300ms;
+  border: 2px solid var(--dark-accent);
+}

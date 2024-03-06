@@ -46,7 +46,7 @@ export default function Layout({ pageTitle, children }) {
         <a href="https://dev.to/vulcanwm" target="_blank">
           <img className={styles.footerIcon} src="/logos/devto.png" alt="DEV" />
         </a>
-        <a href="mailto:your.email@example.com">
+        <a href="mailto:vulcanwmemail@gmail.com">
           <img className={styles.footerIcon} src="/logos/mail.png" alt="Mail" />
         </a>
         <a href="https://replit.com/@VulcanWM" target="_blank">

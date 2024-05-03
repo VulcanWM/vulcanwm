@@ -2,7 +2,7 @@
 <h1 align="center">Hey 🙏, I'm VulcanWM</h1>
 <h3 align="center">A 15 year old Full Stack Developer from the UK</h3>
 
-- 🎯 I’m currently working on [chordscape](https://chordscape.vercel.app)
+- 🎯 I’m currently working on [easerecall](https://easerecall.netlify.app)
 
 - 👨‍💻 All of my projects are available at [https://vulcanwm.is-a.dev](https://vulcanwm.is-a.dev)
 

@@ -1,4 +1,9 @@
 export const projects = {
+  "easerecall": {
+    "Link": "https://easerecall.netlify.app",
+    "Desc": "effortlessly learn and remember quotations",
+    "Tags": ["Next.js", "React.js", "MongoDB", "Education"]
+  },
   "ToneTrail": {
     "Link": "https://tonetrail.vercel.app",
     "Desc": "learn music theory from scratch",

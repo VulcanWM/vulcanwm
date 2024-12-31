@@ -9,10 +9,15 @@ export const projects = {
     "Desc": "get the most out of user feedback",
     "Tags": ['Next.js', 'MongoDB', 'Groq AI', 'shadcn', 'Stripe']
   },
+  "recallit": {
+    "Link": "https://recallit.vercel.app",
+    "Desc": "urn any study material into a personalised learning assessment",
+    "Tags": ['Next.js', 'MongoDB', 'GroqAI', 'shadcn', 'Education']
+  },
   "easerecall": {
     "Link": "https://easerecall.netlify.app",
     "Desc": "effortlessly learn and remember quotations",
-    "Tags": ["Next.js", "React.js", "MongoDB", "Education", "shadcn"]
+    "Tags": ["Next.js", "React.js", "MongoDB", "shadcn", "Education"]
   },
   "ToneTrail": {
     "Link": "https://tonetrail.vercel.app",

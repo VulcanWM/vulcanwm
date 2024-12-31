@@ -1,8 +1,18 @@
 export const projects = {
+  "GameGift": {
+    "Link": "https://www.gamegift.space",
+    "Desc": "create personalised games as gifts",
+    "Tags": ['Next.js', 'MongoDB', 'kaboom.js', 'shadcn', 'Stripe']
+  },
+  "feedscope": {
+    "Link": "https://www.feedscope.xyz",
+    "Desc": "get the most out of user feedback",
+    "Tags": ['Next.js', 'MongoDB', 'Groq AI', 'shadcn', 'Stripe']
+  },
   "easerecall": {
     "Link": "https://easerecall.netlify.app",
     "Desc": "effortlessly learn and remember quotations",
-    "Tags": ["Next.js", "React.js", "MongoDB", "Education"]
+    "Tags": ["Next.js", "React.js", "MongoDB", "Education", "shadcn"]
   },
   "ToneTrail": {
     "Link": "https://tonetrail.vercel.app",

@@ -1,13 +1,13 @@
 export const projects = {
+  "feedscope": {
+    "Link": "https://www.feedscope.xyz",
+    "Desc": "challenge your knowledge daily with engaging trivia",
+    "Tags": ['Next.js', 'React.js', 'MongoDB', 'shadcn']
+  },
   "GameGift": {
     "Link": "https://www.gamegift.space",
     "Desc": "create personalised games as gifts",
     "Tags": ['Next.js', 'MongoDB', 'kaboom.js', 'shadcn', 'Stripe']
-  },
-  "feedscope": {
-    "Link": "https://www.feedscope.xyz",
-    "Desc": "get the most out of user feedback",
-    "Tags": ['Next.js', 'MongoDB', 'Groq AI', 'shadcn', 'Stripe']
   },
   "recallit": {
     "Link": "https://recallit.vercel.app",

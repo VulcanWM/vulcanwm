@@ -7,7 +7,7 @@ export default function SkillsPage() {
     <Layout pageTitle="Skills">
       <div id="skills_content">
         <h2>My Skills</h2>
-        <p>This is a list of what tools I have used while I have been programming.</p>
+        <p>A list of tools I’ve used, with the ones I use most often listed first.</p>
         <div className={styles.lists}>
           { 
             Object.keys(skills).map((skill_type, index) => (

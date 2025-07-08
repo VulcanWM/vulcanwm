@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import styles from './layout.module.css';
 import Link from 'next/link';
 import { Analytics } from '@vercel/analytics/react';
@@ -43,14 +42,14 @@ export default function Layout({ pageTitle, children }) {
         <a href="https://github.com/VulcanWM" target="_blank">
           <img className={styles.footerIcon} src="/logos/github.png" alt="GitHub" />
         </a>
+          <a href="https://x.com/VulcanWM" target="_blank">
+              <img className={styles.footerIcon} src="/logos/x.jpg" alt="X" />
+          </a>
         <a href="https://dev.to/vulcanwm" target="_blank">
           <img className={styles.footerIcon} src="/logos/devto.png" alt="DEV" />
         </a>
         <a href="mailto:vulcanwmemail@gmail.com">
           <img className={styles.footerIcon} src="/logos/mail.png" alt="Mail" />
-        </a>
-        <a href="https://replit.com/@VulcanWM" target="_blank">
-          <img className={styles.footerIcon} src="/logos/replit.png" alt="Replit" />
         </a>
       </div>
       <Analytics />

@@ -1,23 +1,33 @@
 export const projects = {
-  "feedscope": {
-    "Link": "https://www.feedscope.xyz",
-    "Desc": "challenge your knowledge daily with engaging trivia",
-    "Tags": ['Next.js', 'React.js', 'MongoDB', 'shadcn']
+  "LogicLore": {
+    "Link": "https://logiclore.netlify.app",
+    "Desc": "teach kids basic cs concepts with interactive stories",
+    "Tags": ['Next.js', 'MongoDB', 'Tailwind', 'Stripe', 'Education']
+  },
+  "VibeFight": {
+    "Link": "https://www.vibefight.com",
+    "Desc": "launch platform for vibecoded websites",
+    "Tags": ['Next.js', 'React.js', 'MongoDB', 'Tailwind']
   },
   "GameGift": {
     "Link": "https://www.gamegift.space",
     "Desc": "create personalised games as gifts",
-    "Tags": ['Next.js', 'MongoDB', 'kaboom.js', 'shadcn', 'Stripe']
+    "Tags": ['Next.js', 'MongoDB', 'kaboom.js', 'Tailwind', 'Stripe']
+  },
+  "feedscope": {
+    "Link": "https://www.feedscope.xyz",
+    "Desc": "challenge your knowledge daily with engaging trivia",
+    "Tags": ['Next.js', 'React.js', 'MongoDB', 'Tailwind']
   },
   "recallit": {
     "Link": "https://recallit.vercel.app",
-    "Desc": "urn any study material into a personalised learning assessment",
-    "Tags": ['Next.js', 'MongoDB', 'GroqAI', 'shadcn', 'Education']
+    "Desc": "turn any study material into a personalised learning assessment",
+    "Tags": ['Next.js', 'MongoDB', 'GroqAI', 'Tailwind', 'Education']
   },
   "easerecall": {
     "Link": "https://easerecall.netlify.app",
     "Desc": "effortlessly learn and remember quotations",
-    "Tags": ["Next.js", "React.js", "MongoDB", "shadcn", "Education"]
+    "Tags": ["Next.js", "React.js", "MongoDB", "Tailwind", "Education"]
   },
   "ToneTrail": {
     "Link": "https://tonetrail.vercel.app",

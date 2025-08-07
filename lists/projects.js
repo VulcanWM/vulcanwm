@@ -1,4 +1,9 @@
 export const projects = {
+  "TaskStake": {
+    "Link": "https://taskstake.netlify.app",
+    "Desc": "bet on your productivity by staking coins on tasks",
+    "Tags": ['Next.js', 'MongoDB', 'Tailwind', 'Stripe', 'React.js']
+  },
   "LogicLore": {
     "Link": "https://logiclore.netlify.app",
     "Desc": "teach kids basic cs concepts with interactive stories",

@@ -9,6 +9,16 @@ export const projects = {
     "Desc": "teach kids basic cs concepts with interactive stories",
     "Tags": ['Next.js', 'MongoDB', 'Tailwind', 'Stripe', 'Education']
   },
+  "ChallengeCanvas": {
+    "Link": "https://github.com/VulcanWM/challenge-canvas",
+    "Desc": "a post-it note like interface for visualising daily progress",
+    "Tags": ['Chrome Extension', 'Vanilla JS', 'Education']
+  },
+  "IdeaBench": {
+    "Link": "https://ideabench.netlify.app",
+    "Desc": "access 200+ scored and analysed startup ideas",
+    "Tags": ['Next.js', 'MongoDB', 'Tailwind', 'Stripe', 'React.js']
+  },
   "VibeFight": {
     "Link": "https://www.vibefight.com",
     "Desc": "launch platform for vibecoded websites",

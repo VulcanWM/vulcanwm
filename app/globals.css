@@ -44,6 +44,9 @@
   --glow-orange: #ff6a00;
   --glow-orange-intense: #ff4500;
   --circuit-lines: #333333;
+  --font-geist-sans: 'Orbitron', sans-serif;
+  --font-geist-mono: 'JetBrains Mono', monospace;
+
 }
 
 .dark {

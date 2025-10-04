@@ -5,178 +5,184 @@ import { useState } from 'react';
 const projects = [
     // Featured Projects
     {
-        title: 'Neural Nexus',
-        description: 'AI-powered development environment with predictive coding assistance and autonomous debugging capabilities.',
-        tech: ['React', 'Python', 'TensorFlow', 'Docker'],
+        title: 'TaskStake',
+        description: 'Bet on your productivity by staking coins on tasks.',
+        tech: ['Next.js', 'MongoDB', 'Tailwind', 'Stripe', 'React.js'],
         icon: <Cpu className="w-6 h-6" />,
         gradient: 'from-orange-500 to-red-500',
-        category: 'AI/ML',
-        featured: true
+        category: 'Web App',
+        featured: true,
+        demo: 'https://taskstake.netlify.app'
     },
     {
-        title: 'Quantum Router',
-        description: 'Next-generation network routing system built with quantum-resistant encryption and adaptive protocols.',
-        tech: ['Rust', 'WebAssembly', 'GraphQL', 'Kubernetes'],
-        icon: <Zap className="w-6 h-6" />,
-        gradient: 'from-orange-400 to-yellow-500',
-        category: 'Infrastructure',
-        featured: true
-    },
-    {
-        title: 'Shadow Vault',
-        description: 'Decentralized security framework for protecting sensitive data across distributed systems.',
-        tech: ['Node.js', 'Blockchain', 'MongoDB', 'Redis'],
-        icon: <Shield className="w-6 h-6" />,
-        gradient: 'from-red-500 to-orange-600',
-        category: 'Security',
-        featured: true
-    },
-    {
-        title: 'Phoenix Protocol',
-        description: 'Self-healing microservices architecture that automatically recovers from system failures.',
-        tech: ['Go', 'Docker', 'Prometheus', 'gRPC'],
-        icon: <Code2 className="w-6 h-6" />,
-        gradient: 'from-orange-600 to-amber-500',
-        category: 'Infrastructure',
-        featured: true
-    },
-    // Web Applications
-    {
-        title: 'Cyber Dashboard',
-        description: 'Real-time monitoring dashboard for distributed systems with predictive analytics.',
-        tech: ['React', 'D3.js', 'WebSocket', 'Redis'],
-        icon: <Monitor className="w-6 h-6" />,
-        gradient: 'from-orange-500 to-red-400',
-        category: 'Web App'
-    },
-    {
-        title: 'Code Forge Portal',
-        description: 'Collaborative development platform with integrated CI/CD and code review workflows.',
-        tech: ['Next.js', 'PostgreSQL', 'Docker', 'GitHub API'],
-        icon: <Globe className="w-6 h-6" />,
-        gradient: 'from-amber-500 to-orange-500',
-        category: 'Web App'
-    },
-    {
-        title: 'Neural Chat',
-        description: 'AI-powered communication platform with sentiment analysis and smart routing.',
-        tech: ['React', 'Node.js', 'OpenAI', 'Socket.io'],
-        icon: <Bot className="w-6 h-6" />,
-        gradient: 'from-red-500 to-pink-500',
-        category: 'AI/ML'
-    },
-    // Mobile Applications
-    {
-        title: 'Stealth Scanner',
-        description: 'Mobile network security scanner with vulnerability detection and reporting.',
-        tech: ['React Native', 'Node.js', 'MongoDB', 'Express'],
-        icon: <Smartphone className="w-6 h-6" />,
-        gradient: 'from-orange-600 to-red-500',
-        category: 'Mobile'
-    },
-    {
-        title: 'Crypto Vault Mobile',
-        description: 'Secure cryptocurrency wallet with multi-chain support and hardware integration.',
-        tech: ['Flutter', 'Dart', 'Firebase', 'Web3'],
-        icon: <Lock className="w-6 h-6" />,
-        gradient: 'from-yellow-500 to-orange-500',
-        category: 'Mobile'
-    },
-    // Infrastructure & DevOps
-    {
-        title: 'Cloud Orchestrator',
-        description: 'Multi-cloud deployment platform with automated scaling and cost optimization.',
-        tech: ['Terraform', 'AWS', 'GCP', 'Kubernetes'],
-        icon: <Cloud className="w-6 h-6" />,
-        gradient: 'from-blue-500 to-purple-500',
-        category: 'Infrastructure'
-    },
-    {
-        title: 'Docker Swarm Manager',
-        description: 'Container orchestration system with intelligent load balancing and health monitoring.',
-        tech: ['Docker', 'Go', 'Consul', 'Prometheus'],
-        icon: <Layers className="w-6 h-6" />,
-        gradient: 'from-green-500 to-blue-500',
-        category: 'Infrastructure'
-    },
-    {
-        title: 'Network Mesh',
-        description: 'Service mesh implementation with advanced traffic management and security policies.',
-        tech: ['Istio', 'Envoy', 'gRPC', 'YAML'],
-        icon: <Network className="w-6 h-6" />,
-        gradient: 'from-purple-500 to-pink-500',
-        category: 'Infrastructure'
-    },
-    // AI/ML Projects
-    {
-        title: 'Vision AI',
-        description: 'Computer vision platform for real-time object detection and image analysis.',
-        tech: ['Python', 'OpenCV', 'PyTorch', 'FastAPI'],
+        title: 'LogicLore',
+        description: 'Teach kids basic CS concepts with interactive stories.',
+        tech: ['Next.js', 'MongoDB', 'Tailwind', 'Stripe', 'Education'],
         icon: <Bot className="w-6 h-6" />,
         gradient: 'from-indigo-500 to-purple-500',
-        category: 'AI/ML'
+        category: 'Education',
+        featured: true,
+        demo: 'https://logiclore.netlify.app'
     },
     {
-        title: 'Predictive Analytics Engine',
-        description: 'Machine learning pipeline for time series forecasting and anomaly detection.',
-        tech: ['Python', 'Scikit-learn', 'Apache Kafka', 'InfluxDB'],
-        icon: <Cpu className="w-6 h-6" />,
+        title: 'ChallengeCanvas',
+        description: 'A post-it note like interface for visualising daily progress.',
+        tech: ['Chrome Extension', 'Vanilla JS', 'Education'],
+        icon: <Monitor className="w-6 h-6" />,
+        gradient: 'from-yellow-500 to-orange-500',
+        category: 'Tool',
+        demo: 'https://github.com/VulcanWM/challenge-canvas'
+    },
+    {
+        title: 'IdeaBench',
+        description: 'Access 200+ scored and analysed startup ideas.',
+        tech: ['Next.js', 'MongoDB', 'Tailwind', 'Stripe', 'React.js'],
+        icon: <Globe className="w-6 h-6" />,
+        gradient: 'from-amber-500 to-orange-500',
+        category: 'Web App',
+        demo: 'https://ideabench.netlify.app'
+    },
+    {
+        title: 'VibeFight',
+        description: 'Launch platform for vibecoded websites.',
+        tech: ['Next.js', 'React.js', 'MongoDB', 'Tailwind'],
+        icon: <Zap className="w-6 h-6" />,
+        gradient: 'from-red-500 to-pink-500',
+        category: 'Web App',
+        demo: 'https://www.vibefight.com'
+    },
+    {
+        title: 'GameGift',
+        description: 'Create personalised games as gifts.',
+        tech: ['Next.js', 'MongoDB', 'kaboom.js', 'Tailwind', 'Stripe'],
+        icon: <Lock className="w-6 h-6" />,
+        gradient: 'from-orange-500 to-yellow-500',
+        category: 'Web App',
+        demo: 'https://www.gamegift.space'
+    },
+    {
+        title: 'feedscope',
+        description: 'Challenge your knowledge daily with engaging trivia.',
+        tech: ['Next.js', 'React.js', 'MongoDB', 'Tailwind'],
+        icon: <Bot className="w-6 h-6" />,
         gradient: 'from-teal-500 to-green-500',
-        category: 'AI/ML'
+        category: 'Web App',
+        demo: 'https://www.feedscope.xyz'
     },
     {
-        title: 'NLP Processor',
-        description: 'Natural language processing API with sentiment analysis and entity extraction.',
-        tech: ['Python', 'spaCy', 'BERT', 'FastAPI'],
+        title: 'recallit',
+        description: 'Turn any study material into a personalised learning assessment.',
+        tech: ['Next.js', 'MongoDB', 'GroqAI', 'Tailwind', 'Education'],
+        icon: <Cpu className="w-6 h-6" />,
+        gradient: 'from-indigo-500 to-purple-500',
+        category: 'Education',
+        featured: true,
+        demo: 'https://recallit.vercel.app'
+    },
+    {
+        title: 'easerecall',
+        description: 'Effortlessly learn and remember quotations.',
+        tech: ["Next.js", "React.js", "MongoDB", "Tailwind", "Education"],
         icon: <Terminal className="w-6 h-6" />,
         gradient: 'from-rose-500 to-orange-500',
-        category: 'AI/ML'
-    },
-    // Security Projects
-    {
-        title: 'Cyber Threat Hunter',
-        description: 'Advanced threat detection system with machine learning-based anomaly identification.',
-        tech: ['Python', 'Elasticsearch', 'Kibana', 'Suricata'],
-        icon: <Shield className="w-6 h-6" />,
-        gradient: 'from-red-600 to-orange-600',
-        category: 'Security'
+        category: 'Education',
+        featured: true,
+        demo: 'https://easerecall.netlify.app'
     },
     {
-        title: 'Zero Trust Gateway',
-        description: 'Identity-based network access control with continuous authentication verification.',
-        tech: ['Go', 'OAuth2', 'JWT', 'Redis'],
-        icon: <Lock className="w-6 h-6" />,
-        gradient: 'from-gray-700 to-gray-500',
-        category: 'Security'
-    },
-    // Database & Backend
-    {
-        title: 'Graph Database Engine',
-        description: 'High-performance graph database with real-time query processing and analytics.',
-        tech: ['C++', 'Neo4j', 'Cypher', 'Apache Arrow'],
-        icon: <Database className="w-6 h-6" />,
-        gradient: 'from-emerald-500 to-teal-500',
-        category: 'Database'
+        title: 'ToneTrail',
+        description: 'Learn music theory from scratch.',
+        tech: ["Next.js", "React.js", "VexFlow", "MongoDB", "Education"],
+        icon: <Bot className="w-6 h-6" />,
+        gradient: 'from-indigo-500 to-purple-500',
+        category: 'Education',
+        demo: 'https://tonetrail.vercel.app'
     },
     {
-        title: 'Event Streaming Platform',
-        description: 'Distributed event streaming system with guaranteed delivery and replay capabilities.',
-        tech: ['Java', 'Apache Kafka', 'Zookeeper', 'Avro'],
-        icon: <Zap className="w-6 h-6" />,
-        gradient: 'from-violet-500 to-purple-500',
-        category: 'Infrastructure'
-    },
-    {
-        title: 'API Gateway Mesh',
-        description: 'Intelligent API gateway with rate limiting, caching, and automatic documentation.',
-        tech: ['Node.js', 'Kong', 'OpenAPI', 'Swagger'],
-        icon: <Network className="w-6 h-6" />,
+        title: 'FocusSync',
+        description: 'Goal-driven productivity platform.',
+        tech: ["Next.js", "React.js", "MongoDB", "Tool"],
+        icon: <Monitor className="w-6 h-6" />,
         gradient: 'from-cyan-500 to-blue-500',
-        category: 'Infrastructure'
+        category: 'Tool',
+        demo: 'https://focus-sync.vercel.app'
+    },
+    {
+        title: 'Escape Breakout',
+        description: 'An interactive virtual escape room.',
+        tech: ["Three.js", "Next.js", "React.js", "Game"],
+        icon: <Layers className="w-6 h-6" />,
+        gradient: 'from-purple-500 to-pink-500',
+        category: 'Game',
+        demo: 'https://escape-breakout.netlify.app'
+    },
+    {
+        title: 'Discipulis',
+        description: 'A website aimed to help people learn Latin in a fun way.',
+        tech: ["Next.js", "React.js", "MongoDB", "Education"],
+        icon: <Globe className="w-6 h-6" />,
+        gradient: 'from-amber-500 to-orange-500',
+        category: 'Education',
+        demo: 'https://discipulis.vercel.app'
+    },
+    {
+        title: 'What If',
+        description: 'A website where you will face hypothetical scenarios.',
+        tech: ["Next.js", "React.js", "MongoDB", "Forum", "NextAuth"],
+        icon: <Cpu className="w-6 h-6" />,
+        gradient: 'from-orange-500 to-red-500',
+        category: 'Forum',
+        demo: 'https://what-if-scenarios.vercel.app'
+    },
+    {
+        title: 'Melody Maker',
+        description: 'Instantly generates sheet music and audio for simple melodies in any key.',
+        tech: ["Next.js", "React.js", "VexFlow", "Tone.js"],
+        icon: <Bot className="w-6 h-6" />,
+        gradient: 'from-indigo-500 to-purple-500',
+        category: 'Tool',
+        demo: 'https://melody-maker-theta.vercel.app'
+    },
+    {
+        title: "VulcanWM's GuestBook",
+        description: 'View and sign my guestbook.',
+        tech: ['Next.js', 'React.js', 'MongoDB', "NextAuth"],
+        icon: <Monitor className="w-6 h-6" />,
+        gradient: 'from-teal-500 to-green-500',
+        category: 'Web App',
+        demo: 'https://vulcanwm-guestbook.vercel.app'
+    },
+    {
+        title: 'Global CSS Art',
+        description: 'A community dedicated to bringing together CSS artists.',
+        tech: ['Next.js', 'CSS', 'GitHub', 'Open-Source'],
+        icon: <Globe className="w-6 h-6" />,
+        gradient: 'from-purple-500 to-pink-500',
+        category: 'Community',
+        demo: 'https://global-css-art.vercel.app/'
+    },
+    {
+        title: 'Distribute Time',
+        description: 'Automatically make your own timetable.',
+        tech: ["Flask", "HTML,CSS,JS", "Tool"],
+        icon: <Cpu className="w-6 h-6" />,
+        gradient: 'from-cyan-500 to-blue-500',
+        category: 'Tool',
+        demo: 'https://distribute-time.onrender.com'
+    },
+    {
+        title: 'Escape the Punch',
+        description: "Try to escape the ghost's punch.",
+        tech: ["kaboom.js", 'Game'],
+        icon: <Layers className="w-6 h-6" />,
+        gradient: 'from-orange-500 to-red-500',
+        category: 'Game',
+        demo: 'https://escape-the-punch.netlify.app'
     }
 ];
 
-const categories = ['All', 'Featured', 'Web App', 'Mobile', 'AI/ML', 'Infrastructure', 'Security', 'Database'];
+const categories = ['All', 'Featured', 'Web App', 'Education', 'Tool', 'Game', 'Forum', 'Community'];
+
 
 export default function Projects() {
     const [selectedCategory, setSelectedCategory] = useState('Featured');
@@ -307,17 +313,19 @@ export default function Projects() {
                                     ))}
                                 </div>
 
-                                {/* Action buttons */}
-                                <div className="flex gap-2">
-                                    <button className="flex items-center gap-1 px-3 py-2 bg-transparent border border-orange-500 text-orange-500 font-mono hover:bg-orange-500 hover:text-black transition-all duration-300 rounded text-sm flex-1 justify-center">
-                                        <Github className="w-3 h-3" />
-                                        Code
-                                    </button>
-                                    <button className="flex items-center gap-1 px-3 py-2 bg-orange-500 text-black font-mono hover:bg-orange-600 transition-all duration-300 rounded text-sm flex-1 justify-center">
+                                {/* Demo button */}
+                                <div>
+                                    <a
+                                        href={project.demo}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex items-center gap-1 px-3 py-2 bg-orange-500 text-black font-mono hover:bg-orange-600 transition-all duration-300 rounded text-sm flex-1 justify-center"
+                                    >
                                         <ExternalLink className="w-3 h-3" />
                                         Demo
-                                    </button>
+                                    </a>
                                 </div>
+
 
                                 {/* Hover effect overlay */}
                                 <div className="absolute inset-0 bg-gradient-to-r from-orange-500/5 to-red-500/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>

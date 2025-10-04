@@ -27,8 +27,6 @@ const socialLinks = [
 ];
 
 export default function Contact() {
-    const [email, setEmail] = useState('');
-
     return (
         <section id="contact" className="min-h-screen py-20 px-6 relative">
             <div className="absolute inset-0 circuit-bg opacity-3"></div>

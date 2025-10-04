@@ -2,6 +2,7 @@
 
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero'
+import Projects from '@/components/Projects';
 import { Github, Twitter, Mail, MessageCircle } from 'lucide-react';
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
         <Navigation />
         <main>
           <Hero />
+          <Projects />
         </main>
 
         {/* Enhanced Footer */}

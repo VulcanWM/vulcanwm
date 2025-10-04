@@ -22,3 +22,17 @@
 
 ---
 [![](https://visitcount.itsvg.in/api?id=VulcanWM&icon=0&color=0)](https://visitcount.itsvg.in)
+
+### for athena award
+
+## what this does
+it's my portfolio where i can show off my skills and all the projects i've made so far
+
+## why i made it
+i've had the same boring looking portfolio for the last few years, and i just felt like it didn't connect with me. so i decided to completely change the colour scheme reflecting my username (vulcan being the roman god of 
+
+## how i made it
+i used next.js with react.js and tailwind and some vanilla css
+
+## what i struggled with and what i learnt
+i'm more of a backend person so i really struggled doing the frontend, especially the animations with react motion, but now it looks so awesome. i've learnt that if you spend time and effort into building something, it will end up being something great.

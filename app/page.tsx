@@ -3,6 +3,8 @@
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero'
 import Projects from '@/components/Projects';
+import Skills from '@/components/Skills';
+import Contact from '@/components/Contact';
 import { Github, Twitter, Mail, MessageCircle } from 'lucide-react';
 
 export default function App() {
@@ -12,6 +14,8 @@ export default function App() {
         <main>
           <Hero />
           <Projects />
+          <Skills />
+          <Contact />
         </main>
 
         {/* Enhanced Footer */}
@@ -79,7 +83,7 @@ export default function App() {
 
             <div className="text-center">
               <p className="font-mono text-sm text-gray-500">
-                © 2024 VulcanWM. All rights reserved. Built with fire and code.
+                © 2025 VulcanWM. All rights reserved. Built with fire and code.
               </p>
             </div>
           </div>

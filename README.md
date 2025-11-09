@@ -21,4 +21,4 @@
 [![trophy](https://github-profile-trophy.vercel.app/?username=vulcanwm&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=VulcanWM&icon=0&color=0)](https://visitcount.itsvg.in
+[![](https://visitcount.itsvg.in/api?id=VulcanWM&icon=0&color=0)](https://visitcount.itsvg.in)

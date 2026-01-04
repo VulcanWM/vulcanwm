@@ -1,8 +1,8 @@
 # 💫About Me :
-<h1 align="center">Hey 🙏, I'm VulcanWM</h1>
+<h1 align="center">Hey, I'm VulcanWM</h1>
 <h3 align="center">A 16 year old Full Stack Developer from the UK</h3>
 
-- 🎯 I’m currently working on [taskstake](https://taskstake.netlify.app)
+- 🎯 I’m currently working on [SaaSHeaven](https://github.com/VulcanWM/saasheaven) (come contribute)
 
 - 👨‍💻 All of my projects are available at [https://vulcanwm.is-a.dev](https://vulcanwm.is-a.dev)
 

@@ -5,6 +5,17 @@ import { useState } from 'react';
 const projects = [
     // Featured Projects
     {
+        title: 'SAAS HEAVEN',
+        description: 'An open-source, community-driven archive of failed saas projects and honest post-mortems.',
+        tech: ['Next.js', 'GitHub API', 'JSON', 'Tailwind', 'React.js'],
+        icon: <Skull className="w-6 h-6" />,
+        gradient: 'from-slate-800 to-zinc-900',
+        category: 'open source',
+        featured: true,
+        demo: 'https://saasheaven.space'
+    },
+
+    {
         title: 'TaskStake',
         description: 'Bet on your productivity by staking coins on tasks.',
         tech: ['Next.js', 'MongoDB', 'Tailwind', 'Stripe', 'React.js'],

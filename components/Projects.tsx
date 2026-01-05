@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { ExternalLink, Github, Code2, Zap, Shield, Cpu, Globe, Database, Cloud, Bot, Smartphone, Monitor, Terminal, Layers, Network, Lock } from 'lucide-react';
+import { ExternalLink, Github, Code2, Zap, Shield, Cpu, Globe, Database, Cloud, Bot, Smartphone, Monitor, Terminal, Layers, Network, Lock, Skull } from 'lucide-react';
 import { useState } from 'react';
 
 const projects = [

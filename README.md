@@ -1,8 +1,8 @@
 # 💫About Me :
-<h1 align="center">Hey 🙏, I'm VulcanWM</h1>
-<h3 align="center">A 16 year old Full Stack Developer from the UK</h3>
+<h1 align="center">Hey, I'm VulcanWM</h1>
+<h3 align="center">A 17 year old Full Stack Developer from the UK</h3>
 
-- 🎯 I’m currently working on [taskstake](https://taskstake.netlify.app)
+- 🎯 I’m currently working on [SaaSHeaven](https://github.com/VulcanWM/saasheaven) (come contribute)
 
 - 👨‍💻 All of my projects are available at [https://vulcanwm.is-a.dev](https://vulcanwm.is-a.dev)
 
@@ -18,7 +18,7 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=VulcanWM&theme=vision-friendly-dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=VulcanWM&theme=vision-friendly-dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)<br/>
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VulcanWM&theme=github_dark)<br/>
-[![trophy](https://github-profile-trophy.vercel.app/?username=vulcanwm&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy-liard-delta.vercel.app/?username=vulcanwm&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=VulcanWM&icon=0&color=0)](https://visitcount.itsvg.in)

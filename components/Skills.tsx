@@ -16,7 +16,7 @@ import {
 
 const skillCategories = [
     {
-        title: 'Frontend Forge',
+        title: 'Frontend',
         skills: [
             { name: 'React', icon: <Code2 className="w-6 h-6" />, level: 95 },
             { name: 'TypeScript', icon: <Terminal className="w-6 h-6" />, level: 90 },
@@ -25,7 +25,7 @@ const skillCategories = [
         ]
     },
     {
-        title: 'Backend Arsenal',
+        title: 'Backend',
         skills: [
             { name: 'Node.js', icon: <Server className="w-6 h-6" />, level: 88 },
             { name: 'Python', icon: <Cpu className="w-6 h-6" />, level: 92 },
@@ -34,7 +34,7 @@ const skillCategories = [
         ]
     },
     {
-        title: 'DevOps Matrix',
+        title: 'Shipping',
         skills: [
             { name: 'Git', icon: <GitBranch className="w-6 h-6" />, level: 87 },
             { name: 'Azure', icon: <Cloud className="w-6 h-6" />, level: 85 },
@@ -58,11 +58,12 @@ export default function Skills() {
                     className="text-center mb-16"
                 >
                     <h2 className="text-5xl md:text-6xl font-orbitron font-black mb-6 glow-text">
-                        SKILL <span className="text-orange-500">MATRIX</span>
+                        TECHNICAL <span className="text-orange-500">SKILLS</span>
                     </h2>
                     <div className="w-32 h-1 bg-orange-500 mx-auto mb-8 glow-pulse"></div>
                     <p className="text-xl font-mono text-gray-400 max-w-2xl mx-auto">
-                        Ancient runes of power, each one mastered through countless cycles of creation and destruction.
+                        Tools I use to build, deploy, and maintain full-stack products with
+                        real users, payments, authentication, and reliable data flows.
                     </p>
                 </motion.div>
 
@@ -121,7 +122,6 @@ export default function Skills() {
                     ))}
                 </div>
 
-                {/* Hexagonal skill nodes */}
                 <motion.div
                     initial={{ opacity: 0, scale: 0.8 }}
                     whileInView={{ opacity: 1, scale: 1 }}
@@ -130,7 +130,7 @@ export default function Skills() {
                     className="text-center"
                 >
                     <h3 className="text-3xl font-orbitron font-bold text-orange-500 mb-12">
-                        CORE SYSTEMS
+                        CORE AREAS
                     </h3>
 
                     <div className="flex flex-wrap justify-center gap-8">

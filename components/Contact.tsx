@@ -1,27 +1,26 @@
 import { motion } from 'motion/react';
 import { Github, Twitter, Mail, Send, ExternalLink, MessageCircle } from 'lucide-react';
-import { useState } from 'react';
 
 const socialLinks = [
     {
         name: 'GitHub',
         url: 'https://github.com/vulcanwm',
         icon: <Github className="w-6 h-6" />,
-        description: 'Explore my code repositories and open source contributions',
+        description: 'Explore my repositories, product experiments, and technical projects',
         color: 'from-orange-500 to-red-500'
     },
     {
         name: 'Twitter',
         url: 'https://twitter.com/vulcanwm',
         icon: <Twitter className="w-6 h-6" />,
-        description: 'Follow my thoughts on tech, coding, and digital innovation',
+        description: 'Follow what I am building and learning in public',
         color: 'from-blue-500 to-purple-500'
     },
     {
         name: 'Email',
         url: 'mailto:vulcanwmemail@gmail.com',
         icon: <Mail className="w-6 h-6" />,
-        description: 'Direct line for collaborations and professional inquiries',
+        description: 'Best place for internships, freelance work, and collaborations',
         color: 'from-green-500 to-teal-500'
     },
 ];
@@ -40,11 +39,12 @@ export default function Contact() {
                     className="text-center mb-16"
                 >
                     <h2 className="text-5xl md:text-6xl font-orbitron font-black mb-6 glow-text">
-                        DIGITAL <span className="text-orange-500">NEXUS</span>
+                        CONTACT <span className="text-orange-500">ME</span>
                     </h2>
                     <div className="w-32 h-1 bg-orange-500 mx-auto mb-8 glow-pulse"></div>
                     <p className="text-xl font-mono text-gray-400 max-w-2xl mx-auto">
-                        Connect with the forge. Join the network of digital architects and code warriors.
+                        I am open to internships, freelance projects, and teams building
+                        practical web products.
                     </p>
                 </motion.div>
 
@@ -57,7 +57,7 @@ export default function Contact() {
                         viewport={{ once: true }}
                     >
                         <h3 className="text-3xl font-orbitron font-bold text-orange-500 mb-8">
-                            NETWORK NODES
+                            LINKS
                         </h3>
 
                         <div className="space-y-6">
@@ -83,7 +83,7 @@ export default function Contact() {
                                                     {link.name}
                                                 </h4>
                                                 <div className="flex items-center gap-2 text-orange-400 font-mono text-sm">
-                                                    <span>Connect</span>
+                                                    <span>Open</span>
                                                     <ExternalLink className="w-3 h-3" />
                                                 </div>
                                             </div>
@@ -105,7 +105,7 @@ export default function Contact() {
                         viewport={{ once: true }}
                     >
                         <h3 className="text-3xl font-orbitron font-bold text-orange-500 mb-8">
-                            DATA STREAMS
+                            WRITING
                         </h3>
 
                         <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-lg p-8 glow-border">
@@ -169,17 +169,18 @@ export default function Contact() {
                 >
                     <div className="bg-gradient-to-r from-orange-500/10 to-red-500/10 border border-orange-500/30 rounded-lg p-8 max-w-3xl mx-auto">
                         <h3 className="text-2xl font-orbitron font-bold text-white mb-4">
-                            Ready to forge something <span className="text-orange-500 glow-text">legendary</span>?
+                            Need a developer who can <span className="text-orange-500 glow-text">ship</span>?
                         </h3>
                         <p className="text-gray-400 font-mono mb-6">
-                            Whether you&apos;re looking to collaborate, have questions about my work, or just want to discuss the future of technology.
+                            I can help build clean interfaces, full-stack features, AI integrations,
+                            and production-ready product experiments.
                         </p>
                         <a
                             href="mailto:vulcanwmemail@gmail.com"
                             className="inline-flex items-center gap-3 px-8 py-4 bg-orange-500 text-black font-mono font-bold hover:bg-orange-600 transition-all duration-300 rounded-lg glow-pulse"
                         >
                             <Mail className="w-5 h-5" />
-                            INITIATE CONTACT
+                            Email Me
                         </a>
                     </div>
                 </motion.div>
